@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem
+}
+
+.search-box input {
+    width: 25rem;
+    padding: .5rem;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 2rem;
+}
+
+
+main img {
+    width: 400px;
+    margin-top: 5rem;
+    border-radius: 1rem;
+}
+
+.Botoes {
+    display: flex;
+    gap: 1rem;
+}
+
+.botoes button{
+    background-color: gray;
+    border-radius: 5rem;
+    padding: .8rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
